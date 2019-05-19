@@ -1,0 +1,24 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1558251916461.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "2648624491",
+    "id" : "D4ED632D",
+    "lastKnownWriteTime" : 1558280301,
+    "last_content_update" : 1558280301070,
+    "path" : "~/github/RMeetUp/Rpackages.Rmd",
+    "project_path" : "Rpackages.Rmd",
+    "properties" : {
+        "cursorPosition" : "148,147",
+        "scrollLine" : "117",
+        "tempName" : "Untitled1",
+        "working_dir" : "project"
+    },
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_markdown"
+}
