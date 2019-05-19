@@ -147,3 +147,21 @@ importFrom(xml2,read_html)
 ```devtools::build_vignettes()``` generates a html document in inst/docs
 
 Pokud pouzivate Github celou analyzu je mozne stahnout pomoci ```devtools::install_github()``` nebo  muzete sdilet html report jednodusse na Github pages
+
+
+## Uzitecne
+
+5 min uvod do packages
+<https://hilaryparker.com/2014/04/29/writing-an-r-package-from-scratch/>
+
+
+Pro vsechno ostatni
+<http://r-pkgs.had.co.nz/>
+
+
+## Diky!
+
+github: <https://github.com/schubertjan/>
+
+
+Twitter: @schubertjan
