@@ -1,8 +1,10 @@
 ---
 title: "Reprodukovatelna analyza s R packages"
 author: "Jan Schubert"
-date: "May 19, 2019"
-output: ioslides_presentation
+date: "May 22, 2019"
+output: 
+  ioslides_presentation:
+    widescreen: true
 ---
 
 ```{r setup, include=FALSE}
