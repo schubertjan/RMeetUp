@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Reprodukovatelna analyza s R packages</title>
+  <title>Reprodukovatelna analyza s R package</title>
 
   <meta charset="utf-8">
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
@@ -21,7 +21,7 @@
     var SLIDE_CONFIG = {
       // Slide settings
       settings: {
-                title: 'Reprodukovatelna analyza s R packages',
+                title: 'Reprodukovatelna analyza s R package',
                         useBuilds: true,
         usePrettify: true,
         enableSlideAreas: true,
@@ -104,14 +104,14 @@
 
 <ul>
 <li>Jak usetrit cas a</li>
-<li>Zlepsit kvalitu</li>
+<li>Zlepsit kvalitu vaseho kodu</li>
 </ul>
 
 <p><br></br> Pro koho:</p>
 
 <ul>
-<li><p>Sdilite kod/report s kolegy</p></li>
-<li><p>Pisete pravidelny report</p></li>
+<li>Sdilite kod/report s kolegy</li>
+<li>Pisete pravidelny report</li>
 </ul>
 
 </article></slide><slide class=""><hgroup><h2>Error!</h2></hgroup><article  id="error">
@@ -141,7 +141,7 @@
 
 <p><br></br> <strong>R Package</strong></p>
 
-</article></slide><slide class=""><hgroup><h2>Proc packages</h2></hgroup><article  id="proc-packages">
+</article></slide><slide class=""><hgroup><h2>Proc package</h2></hgroup><article  id="proc-package">
 
 <p>Diky standardum, kterou packages ocekavani musite:</p>
 
@@ -155,7 +155,7 @@
 
 <p>Pokud jste nikdy R package nedelali, je to jednodussi nez se zda.</p>
 
-</article></slide><slide class=""><hgroup><h2>Proc Package #1 - dokumentace funkci</h2></hgroup><article  id="proc-package-1---dokumentace-funkci">
+</article></slide><slide class=""><hgroup><h2>Proc package #1 - dokumentace funkci</h2></hgroup><article  id="proc-package-1---dokumentace-funkci">
 
 <p>S <code>roxygen2</code> je vytvoreni dokumentace hracka</p>
 
@@ -174,7 +174,7 @@
 
 <pre >?sameasabove</pre>
 
-</article></slide><slide class=""><hgroup><h2>Proc Package #2 - dokumentace dat</h2></hgroup><article  id="proc-package-2---dokumentace-dat" class="smaller">
+</article></slide><slide class=""><hgroup><h2>Proc package #2 - dokumentace dat</h2></hgroup><article  id="proc-package-2---dokumentace-dat" class="smaller">
 
 <pre >#&#39; Categorized climbs from giro 2019
 #&#39;
@@ -200,7 +200,7 @@
 #&#39; @source \url{http://www.giroditalia.it/wp-content/uploads/2019/04/Garibaldi_Giro_italia_2019_low_res.pdf}
 &quot;climbs&quot;</pre>
 
-</article></slide><slide class=""><hgroup><h2>Proc Package #3 - debugging</h2></hgroup><article  id="proc-package-3---debugging">
+</article></slide><slide class=""><hgroup><h2>Proc package #3 - debugging</h2></hgroup><article  id="proc-package-3---debugging">
 
 <p>Pokud spravne definujete ocekavane hodnoty vasich argumentu ve funkci, nemusite travit cas hledanim problemu a muzete zacit rovnou napravovat</p>
 
@@ -213,7 +213,7 @@
   return(x)
 }</pre>
 
-</article></slide><slide class=""><hgroup><h2>Proc Package #4 - zavislosti mezi packages</h2></hgroup><article  id="proc-package-4---zavislosti-mezi-packages">
+</article></slide><slide class=""><hgroup><h2>Proc package #4 - zavislosti mezi packages</h2></hgroup><article  id="proc-package-4---zavislosti-mezi-packages">
 
 <p><code>roxygen2</code> se postara o instalaci vsech packages potrebnych pro zopakovani vasi analyzy.</p>
 
@@ -228,7 +228,7 @@ importFrom(rvest,html_node)
 importFrom(rvest,html_table)
 importFrom(xml2,read_html)</pre>
 
-</article></slide><slide class=""><hgroup><h2>Proc Package #5 - vytvoreni reportu a sdileni</h2></hgroup><article  id="proc-package-5---vytvoreni-reportu-a-sdileni">
+</article></slide><slide class=""><hgroup><h2>Proc package #5 - vytvoreni reportu a sdileni</h2></hgroup><article  id="proc-package-5---vytvoreni-reportu-a-sdileni">
 
 <p><code>devtools::use_vignette()</code> will create a tempated RMarkdown in folder vignettes.</p>
 

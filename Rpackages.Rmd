@@ -1,5 +1,5 @@
 ---
-title: "Reprodukovatelna analyza s R packages"
+title: "Reprodukovatelna analyza s R package"
 author: "Jan Schubert"
 date: "May 22, 2019"
 output: 
@@ -16,13 +16,12 @@ knitr::opts_chunk$set(echo = FALSE)
 O cem to dnes bude:
 
 * Jak usetrit cas a 
-* Zlepsit kvalitu
+* Zlepsit kvalitu vaseho kodu
 
 <br></br>
 Pro koho:
 
 * Sdilite kod/report s kolegy
-
 * Pisete pravidelny report
 
 
@@ -50,7 +49,7 @@ Jeden dlouhy soubor s kodem neni tvuj kamarad:
 **R Package**
 
 
-## Proc packages
+## Proc package
 
 Diky standardum, kterou packages ocekavani musite:
 
@@ -64,7 +63,7 @@ Diky standardum, kterou packages ocekavani musite:
 Pokud jste nikdy R package nedelali, je to jednodussi nez se zda.
 
 
-## Proc Package #1 - dokumentace funkci
+## Proc package #1 - dokumentace funkci
 S ```roxygen2``` je vytvoreni dokumentace hracka
 
 Z kodu:
@@ -84,7 +83,7 @@ Bude vytvorena dokumentace:
 ?sameasabove
 ```
 
-## Proc Package #2 - dokumentace dat {.smaller}
+## Proc package #2 - dokumentace dat {.smaller}
 
 ```
 #' Categorized climbs from giro 2019
@@ -113,7 +112,7 @@ Bude vytvorena dokumentace:
 ```
 
 
-## Proc Package #3 - debugging
+## Proc package #3 - debugging
 Pokud spravne definujete ocekavane hodnoty vasich argumentu ve funkci, nemusite travit cas hledanim problemu a muzete zacit rovnou napravovat 
 ```
 sameasabove <- function(x) {
@@ -126,7 +125,7 @@ sameasabove <- function(x) {
 }
 ```
 
-## Proc Package #4 - zavislosti mezi packages
+## Proc package #4 - zavislosti mezi packages
 ```roxygen2``` se postara o instalaci vsech packages potrebnych pro zopakovani vasi analyzy. 
 
 ```
@@ -142,7 +141,7 @@ importFrom(rvest,html_table)
 importFrom(xml2,read_html)
 ```
 
-## Proc Package #5 - vytvoreni reportu a sdileni
+## Proc package #5 - vytvoreni reportu a sdileni
 ```devtools::use_vignette()``` will create a tempated RMarkdown in folder vignettes.
 
 
